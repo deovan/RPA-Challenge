@@ -1,0 +1,41 @@
+{
+  "name": "robo-rpa-challenge",
+  "version": "1.0.0",
+  "description": "Construir uma automação em Javascript com Selenium para resolver um ou ambos os desafios 'Input Forms' e 'RPA Stock Market' (Capturar o máximo de informações possíveis) disponíveis no site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node ./node_modules/eslint/bin/eslint.js .",
+    "build": "webpack",
+    "generate-docs": "jsdoc -c ./conf.docs.json",
+    "start-dev-robo-INPUT_FORMS": "node index.js start INPUT_FORMS -a desenvolvimento",
+    "start-homol-robo-INPUT_FORMS": "node index.js start INPUT_FORMS -a homologacao",
+    "start-producao-robo-INPUT_FORMS": "node index.js start INPUT_FORMS -a producao",
+    "start-dev-robo-STOCK_MARKET": "node index.js start STOCK_MARKET -a desenvolvimento",
+    "start-homol-robo-STOCK_MARKET": "node index.js start STOCK_MARKET -a homologacao",
+    "start-producao-robo-STOCK_MARKET": "node index.js start STOCK_MARKET -a producao"
+  },
+  "author": "Deovan Zanol",
+  "license": "ISC",
+  "dependencies": {
+    "@deovan/rpa-excel-utils": "^1.0.6",
+    "@deovan/rpa-file-utils": "^1.0.1",
+    "@deovan/rpa-log": "^1.0.5",
+    "@deovan/rpa-puppeteer-utils": "^1.0.13",
+    "commander": "^6.2.0",
+    "lodash": "^4.17.21",
+    "tabletojson": "^2.0.7"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "eslint": "^7.29.0",
+    "jsdoc": "^3.6.7",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "keywords": [
+    "rpa",
+    "robo",
+    "puppeteer"
+  ]
+}

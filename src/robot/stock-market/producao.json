@@ -1,0 +1,10 @@
+{
+  "id": "robo-rpa-challenge",
+  "url": "http://www.rpachallenge.com/assets/rpaStockMarket/index.html",
+  "puppeteer": {
+    "devTools": false,
+    "headless": true,
+    "incognito": true,
+    "slowMo": 0
+  }
+}

@@ -1,0 +1,8 @@
+/node_modules
+/out
+/logs
+tokens/*.json
+*.log
+*.xlsx
+/dist
+.lnk

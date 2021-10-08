@@ -1,0 +1,13 @@
+{
+  "id": "robo-rpa-challenge",
+  "url": "http://rpachallenge.com",
+  "puppeteer": {
+    "devTools": false,
+    "headless": true,
+    "incognito": true,
+    "slowMo": 0
+  },
+  "input": {
+    "nomeArquivo": "./input/challenge.xlsx"
+  }
+}
