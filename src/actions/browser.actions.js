@@ -11,7 +11,6 @@ async function getLinks(page) {
         };
 
         return res;
-
       });
   });
 }
@@ -28,7 +27,6 @@ async function getTitles(page) {
         };
 
         return res;
-
       });
   });
 }
@@ -61,7 +59,6 @@ async function getThumbnail(page) {
         };
 
         return res;
-
       });
   });
 }
