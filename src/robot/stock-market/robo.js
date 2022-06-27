@@ -20,7 +20,6 @@ async function run(options) {
   try {
     log.info("Inicio em " + ambiente);
 
-
     await executarRobo(configuracao);
 
   } catch (error) {
@@ -63,7 +62,6 @@ async function executarRobo({ ...configuracao }) {
 
     const buttons = await actions.getButtons(page);
     console.log(buttons);
-
 
   } catch (error) {
     log.error(error);
